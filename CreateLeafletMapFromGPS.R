@@ -114,8 +114,8 @@ ggplot(data = world) +
   ggtitle(paste0(depid," GPS Track")) +
   xlab("Longitude") + 
   ylab("Latitude") + 
-  theme(axis.title = element_text(family="Times",face="bold", size=20),
-        axis.text = element_text(family="Times", face="bold", size=16),
+  theme(axis.title = element_text(face="bold", size=20),
+        axis.text = element_text(face="bold", size=16),
         panel.grid.major = element_line(color = gray(.5), linetype = "dashed", size = 0.5), 
         panel.background = element_rect(fill = "aliceblue"),
         legend.position = NULL)
